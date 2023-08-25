@@ -28,12 +28,12 @@ $global-font-secondary-color: #a9a9b3 !default;
 $global-font-secondary-color-dark: #5d5d5f !default;
 
 // Color of the link
-$global-link-color: #161209 !default;
+$global-link-color: #534E46 !default;
 $global-link-color-dark: #a9a9b3 !default;
 
 // Color of the hover link
-$global-link-hover-color: #2d96bd !default;
-$global-link-hover-color-dark: #fff !default;
+$global-link-hover-color: #86DB88 !default;
+$global-link-hover-color-dark: #86DB88 !default;
 
 // Color of the border
 $global-border-color: #f0f0f0 !default;
@@ -81,12 +81,12 @@ $toc-title-font-size: 1.2rem !default;
 $toc-content-font-size: 1rem !default;
 
 // Color of the single link
-$single-link-color: #2d96bd !default;
-$single-link-color-dark: #55bde2 !default;
+$single-link-color: #534E46 !default;
+$single-link-color-dark: #a9a9b3 !default;
 
 // Color of the hover single link
-$single-link-hover-color: #ef3982 !default;
-$single-link-hover-color-dark: #bdebfc !default;
+$single-link-hover-color: #86DB88 !default;
+$single-link-hover-color-dark: #86DB88 !default;
 
 // Color of the table background
 $table-background-color: #fff !default;
@@ -99,16 +99,29 @@ $table-thead-color-dark: #20252b !default;
 // Color of the blockquote
 $blockquote-color: #6bd6fd !default;
 $blockquote-color-dark: #59c5ec !default;
+
+// Color of secondary header (h2)
+$secondary-header-color: $global-font-color !default;
+$secondary-header-color-dark: $global-font-color-dark !default;
+
+// header mark colors (# before header)
+$header-mark-color: $single-link-color !default;
+$header-mark-color-dark: $single-link-color-dark !default;
+
+$header-mark-color-hover: #86DB88 !default;
+$header-mark-color-hover-dark: #86DB88 !default;
+
+
 // ========== Single Content ========== //
 
 // ========== Pagination ========== //
 // Color of the link in pagination
-$pagination-link-color: #2d96bd !default;
+$pagination-link-color: #534E46 !default;
 $pagination-link-color-dark: #a9a9b3 !default;
 
 // Color of the hover link in pagination
-$pagination-link-hover-color: #000 !default;
-$pagination-link-hover-color-dark: #fff !default;
+$pagination-link-hover-color: #86DB88 !default;
+$pagination-link-hover-color-dark: #86DB88 !default;
 // ========== Pagination ========== //
 
 // ========== Code ========== //
